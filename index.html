@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>My Portfolio</title>
+	<link rel="stylesheet" href="style.css"/>
+	<link rel="stylesheet" href="mediaqueries.css"/>
+</head>
+
+<body>
+
+<section id="profile"class="profile">
+	<div class="section__pic-container">
+		<img src="Assets\Arend PFP.jpg" alt="Arend Muller picture" class="grad-pic"/>
+	</div>
+	<div class="section__text">
+		<p class="section__text__p1">Hello, I'm</p>
+		<h1 class="title">Arend Muller</h1>
+		<p class="section__text__p2">Junior Software Developer</p>
+		<div class="btn-container">
+			<button class="btn btn-color-2" onclick="window.open('Assets/Arend Muller - Curriculum Vitae.pdf')">
+				Download CV
+			</button>
+			<button class="btn btn-color-1" onclick="location.href='./#contact'">
+				Contact Info
+			</button>
+		</div>
+		<div id="socials-container">
+			<img src="Assets\InBug-Black.png" alt="My LinkedIn profile" class="icon"
+			     onclick="location.href='https://www.linkedin.com/in/arend-muller-9441a7265/'"/>
+		</div>
+	</div>
+</section>
+<nav id="desktop-nav">
+	<div>
+		<ul class="nav-links">
+			<li class="nav-link"><a href="#about">About</a></li>
+			<li class="nav-link"><a href="#experience">Experience</a></li>
+			<!-- <li><a href="#projects">Projects</a></li> -->
+			<li class="nav-link"><a href="#contact">Contact</a></li>
+		</ul>
+	</div>
+</nav>
+<nav id="hamburger-nav">
+	<div class="logo">Arend Muller</div>
+	<div class="hamburger-menu">
+		<div class="hamburger-icon" onclick="toggleMenu()">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+		<div class="menu-links">
+			<li><a href="#about" onclick="toggleMenu()">About</a></li>
+			<li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+			<!-- <li><a href="#projects" onclick="toggleMenu()">Projects</a></li> -->
+			<li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+		</div>
+	</div>
+</nav>
+<section id="about">
+	<p class="section__text__p1">Get To Know More</p>
+	<h1 class="title">About Me</h1>
+	<div class="section-container">
+		<div class="section__pic-container">
+			<img src="Assets\CircuitTree.jpg" alt="Profile picture" class="about-pic"/>
+		</div>
+		<div class="about-details-container">
+			<div class="about-containers">
+				<div class="details-container">
+					<img src="Assets\award-experience-icon-11.png" alt="Experience icon" class="icon"/>
+					<h3>Experience Overview</h3>
+					<p>
+						<b>2 years:</b> <br/>Software Development - CTU Training Solutions<br>
+						<b>September 2023 - November 2023</b> <br>Jnr Intern Developer at ICE Tech<br>
+						<b>January 2024 - February 2025</b><br>IT Support Specialist at inSite Connect<br>
+						<b>February 2025 - Present</b><br>Jnr PHP Developer and IT Support Consultant at inSite
+						Connect<br>
+					</p>
+				</div>
+				<div class="details-container">
+					<img src="Assets\2153317.png" alt="Education icon" class="icon"/>
+					<h3>Education</h3>
+					<p>
+						<b>IT Systems Development Certificate</b> - CTU Training Solutions<br>
+						<b>Python Up-Skill Online Course</b>(<a href="Assets\Certificates\Udemy - Python.pdf">See Course
+						Certificate</a>)<br>
+						<b>Software Development</b> - CTU Training Solutions<br>
+						<b>Programming Foundation</b> - CTU Training Solutions<br>
+						<b>Microsoft Technology Associate Certificate / 98-381: Introduction to Programming Using
+							Python</b> -
+						Microsoft<br>
+						<b>Information Technology Specialist Certification: HTML and CSS</b><br>
+						<b>Grade 12 National Senior Certificate</b> - Entheos Christian School
+					</p>
+				</div>
+			</div>
+			<div class="text-container">
+				<p>
+					I am a motivated, hardworking, and committed individual who takes pride in continuous
+					self-improvement and personal growth. I have a natural ability to lead, encourage, and inspire those
+					around me, and I approach every opportunity with confidence, enthusiasm, and a positive attitude.
+					<br>
+					I believe strongly in dedication, discipline, and perseverance. I am thorough in my work, committed
+					to achieving high standards, and always willing to learn new skills that help me grow both
+					personally and professionally. I enjoy solving problems and do not shy away from seeking guidance
+					when needed, as I believe that learning from others is an important part of success.
+					<br
+					>
+					I am dependable, resilient, and fully committed to everything I take on. I believe that challenges
+					are opportunities to grow, and I always strive to give my best in every task, project, or
+					responsibility I am given.
+					<br>
+				</p>
+			</div>
+		</div>
+	</div>
+	<!-- <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" /> -->
+	<hr>
+</section>
+<section id="experience">
+	<p class="section__text__p1">Explore My</p>
+	<h1 class="title">Experience</h1>
+	<div class="experience-details-container">
+		<div class="about-containers">
+			<div class="details-container">
+				<h2 class="experience-sub-title">Frontend Development</h2>
+				<div class="article-container">
+					<article>
+						<img src="Assets\sparkletar.png" alt="Experience icon" class="icon"/>
+						<div>
+							<h3>HTML</h3>
+							<p>intermediate </p>
+						</div>
+					</article>
+					<article>
+						<img src="Assets\sparkletar.png" alt="Experience icon" class="icon"/>
+						<div>
+							<h3>CSS</h3>
+							<p>intermediate </p>
+						</div>
+					</article>
+					<article>
+						<img src="Assets\sparkletar.png" alt="Experience icon" class="icon"/>
+						<div>
+							<h3>JavaScript</h3>
+							<p>Basic</p>
+						</div>
+					</article>
+					<article>
+						<img src="Assets\sparkletar.png" alt="Experience icon" class="icon"/>
+						<div>
+							<h3>React</h3>
+							<p>Basic</p>
+						</div>
+					</article>
+					<article>
+						<img src="Assets\sparkletar.png" alt="Experience icon" class="icon"/>
+						<div>
+							<h3>Dart</h3>
+							<p>Basic</p>
+						</div>
+					</article>
+				</div>
+			</div>
+			<div class="details-container">
+				<h2 class="experience-sub-title">Backend Development</h2>
+				<div class="article-container">
+					<article>
+						<img src="Assets\sparkletar.png" alt="Experience icon" class="icon"/>
+						<div>
+							<h3>C#</h3>
+							<p>Basic</p>
+						</div>
+					</article>
+					<article>
+						<img src="Assets\sparkletar.png" alt="Experience icon" class="icon"/>
+						<div>
+							<h3>Java</h3>
+							<p>Intermediate</p>
+						</div>
+					</article>
+					<article>
+						<img src="Assets\sparkletar.png" alt="Experience icon" class="icon"/>
+						<div>
+							<h3>Python</h3>
+							<p>Intermediate</p>
+						</div>
+					</article>
+					<article>
+						<img src="Assets\sparkletar.png" alt="Experience icon" class="icon"/>
+						<div>
+							<h3>SQL</h3>
+							<p>Intermediate</p>
+						</div>
+					</article>
+					<article>
+						<img src="Assets\sparkletar.png" alt="Experience icon" class="icon"/>
+						<div>
+							<h3>PHP</h3>
+							<p>Intermediate</p>
+						</div>
+					</article>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" /> -->
+</section>
+<section class="work-experience">
+	<p class="section__text__p1">See my</p>
+	<h1 class="title">Work Experience</h1>
+	<div class="work-experience-container">
+		<div class="experience-containers">
+			<div class="work-details-container">
+				<div class="experience-provider">
+					<img src="Assets\ICE_Tech.jpg" alt="ICE Tech Logo" class="experience-logo">
+					<a href="https://icetech.io/" class="company-site">ICE Tech</a>
+				</div>
+				<div class="experience-detail">
+					<h4>My responsibilities at ICE Tech</h4>
+					<hr>
+					<p>
+						During my time at ICE Tech I was given the assigment to develop a mailing service system. The
+						main function of this system would be to track when employees would be tasked with being on
+						support. It would then check the duration and mail then send out an email notifying the
+						emplyee that they will be on support for that timeframe and then again when their support
+						duration is about to end.
+					</p>
+				</div>
+			</div>
+			&nbsp;
+			<div class="work-details-container">
+				<div class="experience-provider">
+					<img src="Assets\insite_education_logo.jpg" alt="inSite Connect Logo" class="experience-logo">
+					<a href="https://retirementfundcommunication.com/" class="company-site">inSite Conncect</a>
+				</div>
+				<div class="experience-detail">
+					<h4>My responsibilities at inSite Connect</h4>
+					<hr>
+					<p>
+						At inSite Connect my first responsibility was to provide IT Support both in-house and
+						external. This included troubleshooting issues with both hardware and software of devices use
+						by clients and in-house staff.
+						After my first year I up-skilled to become a Jnr. PHP Developer and started working on client
+						websites, both developing sites for new clients and troubleshooting bugs that come up with
+						existing sites.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- <section id="projects">
+  <p class="section__text__p1">Browse My Recent</p>
+  <h1 class="title">Projects</h1>
+  <div class="experience-details-container">
+	<div class="about-containers">
+	  <div class="details-container color-container">
+		<div class="article-container">
+		  <img src="./assets/project-1.png" alt="Project 1" class="project-img" />
+		</div>
+		<h2 class="experience-sub-title project-title">Project One</h2>
+		<div class="btn-container">
+		  <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+			Github
+		  </button>
+		  <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+			Live Demo
+		  </button>
+		</div>
+	  </div>
+	  <div class="details-container color-container">
+		<div class="article-container">
+		  <img src="./assets/project-2.png" alt="Project 2" class="project-img" />
+		</div>
+		<h2 class="experience-sub-title project-title">Project Two</h2>
+		<div class="btn-container">
+		  <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+			Github
+		  </button>
+		  <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+			Live Demo
+		  </button>
+		</div>
+	  </div>
+	  <div class="details-container color-container">
+		<div class="article-container">
+		  <img src="./assets/project-3.png" alt="Project 3" class="project-img" />
+		</div>
+		<h2 class="experience-sub-title project-title">Project Three</h2>
+		<div class="btn-container">
+		  <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+			Github
+		  </button>
+		  <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+			Live Demo
+		  </button>
+		</div>
+	  </div>
+	</div>
+  </div>
+  <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+</section>-->
+<section id="contact">
+	<div class="contact-container">
+		<p class="section__text__p1">Get in Touch</p>
+		<h1 class="title">Contact Me</h1>
+		<div class="contact-info-upper-container">
+			<div class="contact-info-container">
+				<img src="Assets\email_552486.png" alt="Email icon" class="icon contact-icon email-icon"/>
+				<p><a href="mailto:arendlife021@gmail.com">arendlife021@gmail.com</a></p>
+			</div>
+			<div class="contact-info-container">
+				<img src="Assets\InBug-Black.png" alt="LinkedIn icon" class="icon contact-icon"/>
+				<p><a href="https://www.linkedin.com/in/arend-muller-9441a7265/">LinkedIn</a></p>
+			</div>
+		</div>
+	</div>
+</section>
+<footer>
+	<nav>
+		<div class="nav-links-container">
+			<ul class="nav-links">
+				<li><a href="#about">About</a></li>
+				<li><a href="#experience">Experience</a></li>
+				<!-- <li><a href="#projects">Projects</a></li> -->
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+	<p>Copyright &#169; 2026 Arend Muller. All Rights Reserved.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+
+<!-- test -->
+
+</html>
